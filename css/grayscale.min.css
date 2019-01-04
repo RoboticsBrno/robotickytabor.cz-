@@ -48,7 +48,7 @@
     
     #mainNav .navbar-brand {
         padding:.5rem 0;
-        color:rgba(255,255,255,.5)
+        color:rgb(255,255,255)
     }
     
     #mainNav .nav-link {
@@ -112,9 +112,9 @@
 .masthead h1 {
     font-family:'Varela Round';
     font-size:2.5rem;
-    line-height:2.5rem;
+    line-height:3rem;
     letter-spacing:.8rem;
-    background:-webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
+    background:-webkit-linear-gradient(rgba(255,255,255,1),rgba(255,255,255,.7));
     -webkit-text-fill-color:transparent;
     -webkit-background-clip:text
 }
@@ -127,7 +127,7 @@
 @media (min-width:768px) {
     .masthead h1 {
         font-size:3rem;
-        line-height:4rem
+        line-height:4.5rem
     }
 }
 
@@ -139,7 +139,7 @@
     
     .masthead h1 {
         font-size:6rem;
-        line-height:6.5rem;
+        line-height:7rem;
         letter-spacing:.8rem
     }
     
