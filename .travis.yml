@@ -1,11 +1,10 @@
-sudo:          false
-language:      node_js
+language: node_js
 node_js:
-  - "node"
-install:       npm install
+  - "8"
+install:
+  - npm install
+  - npm install gulp vinyl-ftp minimist gulp-images-resizer fancy-log --save-dev
 script:
-  - npm test
   - gulp
-cache:
-  directories:
-    - node_modules
+after_success:
+  gulp deploy --user $FTP_USER --password $FTP_PASSWORD --server $FTP_SERVER

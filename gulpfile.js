@@ -8,6 +8,11 @@ var autoprefixer = require('gulp-autoprefixer');
 var pkg = require('./package.json');
 var browserSync = require('browser-sync').create();
 
+var minimist = require('minimist');
+var args = minimist(process.argv.slice(2));
+var ftp = require('vinyl-ftp');
+var log = require('fancy-log');
+
 // Set the banner content
 var banner = ['/*!\n',
   ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
@@ -104,6 +109,31 @@ gulp.task('js', ['js:minify']);
 
 // Default task
 gulp.task('default', ['css', 'js', 'vendor']);
+
+// Deploy
+gulp.task('deploy', function() {
+  var remotePath = '/';
+  var conn = ftp.create({
+    host: args.server,
+    user: args.user,
+    password: args.password,
+    log: gulp.log,
+    secureOptions: {rejectUnauthorized: false},
+    secure: true
+  });
+  return gulp.src(
+    ['*.html', 'img/**', 'preview/**', 'css/*.css',
+     'fonts/*', 'js/*.js', 'vendor/**', 'favicon.ico', 'thumb/**'],
+     {base: '.'})
+    .pipe(conn.newer(remotePath))
+    .on('data', (file) => {
+      log("Updating " + file.path);
+    })
+    .on('end', () => {
+      log("Deployed");
+    })
+    .pipe(conn.dest(remotePath));
+});
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
