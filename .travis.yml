@@ -9,7 +9,7 @@ before_install:
 
 script:
     - $SH "npm install &&
-      npm install gulp vinyl-ftp minimist gulp-images-resizer fancy-log --save-dev &&
+      npm install gulp vinyl-ftp minimist gulp-images-resizer fancy-log --global &&
       gulp"
 
 after_success:
