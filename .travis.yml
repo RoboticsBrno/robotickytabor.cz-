@@ -8,4 +8,4 @@ script:
   - gulp
 after_success:
 #  gulp deploy --user $FTP_USER --password $FTP_PASSWORD --server $FTP_SERVER
-  find thumb -type f -exec curl -v -u $FPT_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://${FTP_SERVER}/{} \;
+  find thumb -type f -exec curl -v --ssl -u $FPT_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://${FTP_SERVER}/{} \;
