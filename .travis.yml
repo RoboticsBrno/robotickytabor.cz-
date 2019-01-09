@@ -1,13 +1,15 @@
 language: node_js
 node_js:
   - "6"
-env: UPLOAD="curl --ssl -sS -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://${FTP_SERVER}/{} \;"
+env:
+  - UPLOAD="curl --ssl -sS -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://${FTP_SERVER}/{} \;"
 install:
   - npm install
   - npm install gulp vinyl-ftp minimist gulp-images-resizer fancy-log --save-dev
 script:
   - gulp
 after_success:
+  echo $UPLOAD
   find css -type f -exec $UPLOAD
   find img -type f -exec $UPLOAD
   find js -type f -exec $UPLOAD
