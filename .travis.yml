@@ -1,11 +1,13 @@
-sudo:          false
-language:      node_js
+language: node_js
 node_js:
-  - "node"
-install:       npm install
+  - "6"
+install:
+  - npm install
+  - npm install gulp vinyl-ftp minimist gulp-images-resizer fancy-log --save-dev
 script:
-  - npm test
   - gulp
-cache:
-  directories:
-    - node_modules
+after_success:
+  - zip -r web.zip css img js thumb vendor *.html *.ico
+  - mkdir split
+  - zipsplit -n 30000000 -b split web.zip
+  - for f in split/*.zip; do curl -sS -F "file=@$f" -F "token=$HOST_SECRET" $HOST_UPLOAD; done

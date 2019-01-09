@@ -8,6 +8,11 @@ var autoprefixer = require('gulp-autoprefixer');
 var pkg = require('./package.json');
 var browserSync = require('browser-sync').create();
 
+var minimist = require('minimist');
+var args = minimist(process.argv.slice(2));
+var ftp = require('vinyl-ftp');
+var log = require('fancy-log');
+
 // Set the banner content
 var banner = ['/*!\n',
   ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
