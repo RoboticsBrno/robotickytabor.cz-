@@ -7,10 +7,10 @@ install:
 script:
   - gulp
 after_success:
-  - find css -type f | xargs -P10 ./upload.sh
-  - find img -type f | xargs -P10 ./upload.sh
-  - find js -type f | xargs -P10 ./upload.sh
-  - find thumb -type f | xargs -P10 ./upload.sh
-  - find vendor -type f | xargs -P10 ./upload.sh
-  - find . -name '*.html' | xargs -P10 ./upload.sh
-  - find . -name '*.ico' | xargs -P10 ./upload.sh
+  - find css -type f | xargs -P10 -n1 ./upload.sh
+  - find img -type f | xargs -P10 -n1 ./upload.sh
+  - find js -type f | xargs -P10 -n1 ./upload.sh
+  - find thumb -type f | xargs -P10 -n1 ./upload.sh
+  - find vendor -type f | xargs -P10 -n1 ./upload.sh
+  - find . -name '*.html' | xargs -P10 -n1 ./upload.sh
+  - find . -name '*.ico' | xargs -P10 -n1 ./upload.sh
