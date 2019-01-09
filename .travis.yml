@@ -9,11 +9,11 @@ install:
 script:
   - gulp
 after_success:
-  echo $UPLOAD
-  find css -type f -exec $UPLOAD
-  find img -type f -exec $UPLOAD
-  find js -type f -exec $UPLOAD
-  find thumb -type f -exec $UPLOAD
-  find vendor -type f -exec $UPLOAD
-  find . -name '*.html' -exec $UPLOAD
-  find . -name '*.ico' -exec $UPLOAD
+  - echo $UPLOAD
+  - find css -type f -exec $UPLOAD
+  - find img -type f -exec $UPLOAD
+  - find js -type f -exec $UPLOAD
+  - find thumb -type f -exec $UPLOAD
+  - find vendor -type f -exec $UPLOAD
+  - find . -name '*.html' -exec $UPLOAD
+  - find . -name '*.ico' -exec $UPLOAD
