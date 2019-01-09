@@ -117,22 +117,19 @@ gulp.task('deploy', function() {
     host: args.server,
     user: args.user,
     password: args.password,
-    log: gulp.log,
-    secureOptions: {rejectUnauthorized: false},
-    secure: true
+    log: gulp.log
   });
   return gulp.src(
-    ['*.html', 'img/**', 'preview/**', 'css/*.css',
-     'fonts/*', 'js/*.js', 'vendor/**', 'favicon.ico', 'thumb/**'],
-     {base: '.'})
-    .pipe(conn.newer(remotePath))
+      ['*.html', 'css/**', 'img/**', 'js/**', 'thumb/**', 'vendor/**', 'favicon.ico'],
+      {base: '.'})
+    // .pipe(conn.newer(remotePath))
     .on('data', (file) => {
       log("Updating " + file.path);
     })
+    .pipe(conn.dest(remotePath))
     .on('end', () => {
       log("Deployed");
-    })
-    .pipe(conn.dest(remotePath));
+    });
 });
 
 // Configure the browserSync task
