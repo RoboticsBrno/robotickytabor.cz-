@@ -13,7 +13,7 @@ install:
 script:
   - $SH "gulp"
 
-after_cucess:
+after_success:
   - $SH "gulp deploy"
 
 # deploy:
