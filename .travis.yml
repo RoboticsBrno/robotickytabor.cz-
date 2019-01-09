@@ -7,8 +7,8 @@ before_install:
   - docker run -d --name container -v $(pwd):/travis -w /travis node:6 tail -f /dev/null
   - docker ps
 install:
-  - $SH "install"
-  - $SH "install gulp vinyl-ftp minimist gulp-images-resizer fancy-log --save-dev"
+  - $SH "npm install"
+  - $SH "npm install gulp vinyl-ftp minimist gulp-images-resizer fancy-log --save-dev"
 
 script:
   - $SH "gulp"
