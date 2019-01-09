@@ -9,10 +9,10 @@ install:
 script:
   - gulp
 after_success:
-  - find css -type f -exec "$UPLOAD" \;
-  - find img -type f -exec "$UPLOAD" \;
-  - find js -type f -exec $UPLOAD \;
-  - find thumb -type f -exec $UPLOAD \;
-  - find vendor -type f -exec $UPLOAD \;
-  - find . -name '*.html' -exec $UPLOAD \;
-  - find . -name '*.ico' -exec $UPLOAD \;
+  - find css -type f -exec curl --ssl -sS -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://${FTP_SERVER}/{} \;
+  # - find img -type f -exec "$UPLOAD" \;
+  # - find js -type f -exec $UPLOAD \;
+  # - find thumb -type f -exec $UPLOAD \;
+  # - find vendor -type f -exec $UPLOAD \;
+  # - find . -name '*.html' -exec $UPLOAD \;
+  # - find . -name '*.ico' -exec $UPLOAD \;
