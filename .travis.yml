@@ -10,7 +10,7 @@ script:
   - gulp
 after_success:
   - echo $UPLOAD
-  - find css -type f -exec "$UPLOAD"
+  - echo find css -type f -exec "$UPLOAD"
   - find img -type f -exec "$UPLOAD"
   - find js -type f -exec $UPLOAD
   - find thumb -type f -exec $UPLOAD
