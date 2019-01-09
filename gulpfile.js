@@ -110,28 +110,6 @@ gulp.task('js', ['js:minify']);
 // Default task
 gulp.task('default', ['css', 'js', 'vendor']);
 
-// Deploy
-gulp.task('deploy', function() {
-  var remotePath = '/';
-  var conn = ftp.create({
-    host: args.server,
-    user: args.user,
-    password: args.password,
-    log: gulp.log
-  });
-  return gulp.src(
-      ['*.html', 'css/**', 'img/**', 'js/**', 'thumb/**', 'vendor/**', 'favicon.ico'],
-      {base: '.'})
-    // .pipe(conn.newer(remotePath))
-    .on('data', (file) => {
-      log("Updating " + file.path);
-    })
-    .pipe(conn.dest(remotePath))
-    .on('end', () => {
-      log("Deployed");
-    });
-});
-
 // Configure the browserSync task
 gulp.task('browserSync', function() {
   browserSync.init({

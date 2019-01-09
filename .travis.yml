@@ -1,45 +1,16 @@
-sudo: required
-services:
-  - docker
-env: SH="docker exec -t container bash -c"
-
-before_install:
-  - docker run -d --name container -v $(pwd):/travis -w /travis node:6 tail -f /dev/null
-  - docker ps
-
+language: node_js
+node_js:
+  - "6"
+install:
+  - npm install
+  - npm install gulp vinyl-ftp minimist gulp-images-resizer fancy-log --save-dev
 script:
-    - $SH "npm install &&
-      npm install gulp vinyl-ftp minimist gulp-images-resizer fancy-log --global &&
-      gulp"
-
+  - gulp
 after_success:
-  - $SH "gulp deploy"
-
-# deploy:
-#   provider: pages
-#   skip-cleanup: true
-#   github-token: "$GITHUB_TOKEN"
-#   keep-history: true
-#   local-dir: build-web
-#   on:
-#     branch: master
-#   verbose: true
-
-# language: node_js
-# node_js:
-#   - "6"
-# env:
-#   - UPLOAD="curl --ssl -sS -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://${FTP_SERVER}/{}"
-# install:
-#   - npm install
-#   - npm install gulp vinyl-ftp minimist gulp-images-resizer fancy-log --save-dev
-# script:
-#   - gulp
-# after_success:
-#   - find css -type f -exec curl --ssl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://${FTP_SERVER}/{} \;
-#   # - find img -type f -exec "$UPLOAD" \;
-#   # - find js -type f -exec $UPLOAD \;
-#   # - find thumb -type f -exec $UPLOAD \;
-#   # - find vendor -type f -exec $UPLOAD \;
-#   # - find . -name '*.html' -exec $UPLOAD \;
-#   # - find . -name '*.ico' -exec $UPLOAD \;
+  - find css -type f -exec ./upload.sh {} \;
+  - find img -type f -exec ./upload.sh {} \;
+  - find js -type f -exec ./upload.sh {} \;
+  - find thumb -type f -exec ./upload.sh {} \;
+  - find vendor -type f -exec ./upload.sh {} \;
+  - find . -name '*.html' -exec ./upload.sh {} \;
+  - find . -name '*.ico' -exec ./upload.sh {} \;
