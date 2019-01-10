@@ -18,7 +18,7 @@
   .navbar-nav {
     .nav-item {
       &:hover {
-        color: fade(white, 80%);
+        color: fade(white, .75);
         outline: none;
         background-color: transparent;
       }
@@ -42,9 +42,9 @@
     .nav-link {
       transition: none;
       padding: 2rem 1.5rem;
-      color: fade-out($white, .9);
+      color: rgba(255, 255, 255, 0.9);
       &:hover {
-        color: rgba (211, 204, 204, 0.9);
+        color: rgba (211, 204, 204, 0.75);
       }
       &:active {
         color: white;
