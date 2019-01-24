@@ -8,3 +8,5 @@ img/2018/Thumbs.db
 img/2018/Thumbs.db
 img/Thumbs.db
 *.db
+package-lock.json
+package.json
