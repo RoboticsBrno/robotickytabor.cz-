@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.2 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -27,7 +27,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: rgba(255, 255, 254, 0.75);
   outline: none;
   background-color: transparent;
 }
@@ -42,22 +42,22 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.9);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(211, 204, 204, 0.75);
   }
   #mainNav .nav-link:active {
     color: white;
@@ -103,9 +103,9 @@
 .masthead h1 {
   font-family: 'Varela Round';
   font-size: 2.5rem;
-  line-height: 2.5rem;
+  line-height: 3rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.99), rgba(255, 255, 255, 0.75));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -117,8 +117,8 @@
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 4.5rem;
   }
 }
 
@@ -128,8 +128,8 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 6rem;
+    line-height: 7rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
@@ -168,8 +168,8 @@
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(70%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.01)));
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 70%, rgba(22, 22, 22, 0.01) 100%);
 }
 
 .about-section p {
