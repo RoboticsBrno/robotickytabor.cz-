@@ -88,11 +88,14 @@ gulp.task('css', gulp.series('css:compile', 'css:minify'));
 gulp.task('js:minify', function js_minify() {
   return gulp.src([
       './js/*.js',
-      '!./js/*.min.js'
+      '!./js/*.min.js',
+      './vendor/**/*.js',
+      '!./vendor/**/*.min.js',
     ])
     .pipe(uglify())
-    .pipe(rename({
-      suffix: '.min'
+    .pipe(rename((path) => {
+      path.dirname = ""
+      path.extname = ".min.js"
     }))
     .pipe(header(banner, {
       pkg: pkg
