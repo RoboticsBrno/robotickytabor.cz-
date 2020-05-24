@@ -117,7 +117,7 @@ gulp.task('browserSync', function browser_sync() {
 });
 
 // Dev task
-gulp.task('dev', gulp.series(gulp.parallel('css', 'js'), 'browserSync', function dev() {
+gulp.task('dev', gulp.series(gulp.parallel('css', 'js', 'vendor'), 'browserSync', function dev() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./*.html', browserSync.reload);
