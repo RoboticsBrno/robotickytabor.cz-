@@ -25,6 +25,10 @@
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
     },
+    "scripts": {
+        "build": "gulp",
+        "dev": "gulp dev"
+    },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.3.1",
         "bootstrap": "4.3.1",
