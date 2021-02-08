@@ -1032,6 +1032,16 @@
             items.remove();
           }); 
 
+          $( '.js--add-dynamic-z ' ).on( 'click', function( e )
+          {
+            e.preventDefault();
+            var items = $( '.js--dynamic-items-z' );
+            instanceH.addToImageLightbox( items.find( 'a' ) );
+            $( '.js--dynamic-place-z' ).append( items.find( 'li' ).detach() );
+            $( this ).remove();
+            items.remove();
+          }); 
+
         });
       
       </script>
