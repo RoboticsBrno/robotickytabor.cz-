@@ -5,4 +5,5 @@ bower_components
 generated_list.txt
 package-lock.json
 package.json
-
+js/*
+css/*
