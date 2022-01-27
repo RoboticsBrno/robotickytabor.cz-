@@ -3,7 +3,5 @@ node_modules
 bower_components
 *.db
 generated_list.txt
-package-lock.json
-package.json
 js/*
 css/*
