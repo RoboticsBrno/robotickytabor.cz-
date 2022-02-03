@@ -377,6 +377,27 @@
       </div>
     </section>
 
+    <!-- Template part 1
+    Replace year with the actual year -->
+
+    <!-- <section id="year">
+        <div id="container">
+            <h2 class="text-black-50 text-center">year</h2>
+              <ul class="js--dynamic-place-year">
+                <li><a href="img/year/0001.jpg" data-imagelightbox="h"><img src="thumb/year/0001.jpg" alt=" "/></a></li>
+                <li><a href="img/year/0002.jpg" data-imagelightbox="h"><img src="thumb/year/0002.jpg" alt=" "/></a></li>
+                <li><a href="img/year/0003.jpg" data-imagelightbox="h"><img src="thumb/year/0003.jpg" alt=" "/></a></li>
+                <li><a href="img/year/0004.jpg" data-imagelightbox="h"><img src="thumb/year/0004.jpg" alt=" "/></a></li>
+                <li><a href="img/year/0005.jpg" data-imagelightbox="h"><img src="thumb/year/0005.jpg" alt=" "/></a></li>
+              </ul>
+              <button class="js--add-dynamic-year btn">Zobrazit více</button>
+        </div>
+      </section>
+  
+      <ul class="js--dynamic-items-year is-hidden">
+        <li><a href="img/year/0006.jpg" data-imagelightbox="h"><img src="thumb/year/0006.jpg" alt=" "/></a></li>
+      </ul> -->
+
     <section id="2020">
       <div id="container">
           <h2 class="text-black-50 text-center">2020</h2>
@@ -1041,6 +1062,19 @@
             $( this ).remove();
             items.remove();
           }); 
+
+        // Template part 2.
+        // replace year with the actual year
+
+        //   $( '.js--add-dynamic-year ' ).on( 'click', function( e )
+        //   {
+        //     e.preventDefault();
+        //     var items = $( '.js--dynamic-items-year' );
+        //     instanceH.addToImageLightbox( items.find( 'a' ) );
+        //     $( '.js--dynamic-place-year' ).append( items.find( 'li' ).detach() );
+        //     $( this ).remove();
+        //     items.remove();
+        //   }); 
 
         });
       
