@@ -361,9 +361,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contacts">Kontakty</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="gallery-en.html">EN</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -374,38 +374,44 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h1>Ohlédnutí za minulými lety</h1>
-            <p>Přečtěte si co jsme dělali na minulých táborech.</p>
+            <p>Přečtěte si o tom, co jsme dělali na minulých táborech.</p>
           </div>
         </div>
       </div>
     </section>
 
     <section id="2021">
-      <div id="container">
-        <div class="col-lg-8 mx-auto">
-            <!-- <h2 class="mb-4">  </br></h2> -->
-            <h2 class="text-black-50 text-center">2021</h2>
-
-            <p class="text-center">
-                Po předchozích letech jsme se rozhodli udělat změnu.
-                Myšlenka jednoho velkého výrobku nám přišla již zastaralá, a proto jsme vymysleli nový koncept tábora. </br>
-
-                Každý z 47 účastníků si mohl vybrat z menších projektů, podle jeho zálib a dovedností.
-                Po splnění minimálního počtu malých projektů jej čekal hlavní výrobek v podobě Logika.</br> 
-
-                Mezi malé projekty patřila například Elektronická hrací kostka, Pájecí výzva, RoboSvit a další.
-                Na těchto projektech si účastníci vyzkoušeli především pájení, ale také lepení a celkovou zručnost.
-                Základy elektroniky si účastníci vyzkoušeli na námi vytvořené elektronické stavebnici Electron.
-                Všechny projekty naleznete na https://2021.robotickytabor.cz/.</br>
-
-                Logik je v první řadě programovatelný displej, na kterém lze programovat hry nebo kreslit velmi zajímavou grafiku. 
-                Již tradičně se náš týdenní pobytový tábor uskutečnil v Sebranicích u Litomyšle a dílna byla v tamním kulturním domě.
-                Každý večer se po odborném programu odehrávaly různé hry a došlo i na opékání špekáčků.</br>
-
-                Rádi bychom poděkovali našim partnerským firmám Red Hat, Gatema, SOS electronic, Avast, FabLab Brno a Tiskárna Letovice za podporu našeho tábora. 
-                Z Robotického tábora v Sebranicích zdraví celý organizátorský tým a těšíme se na další setkání na dalším táboře. 
-                </p>
-          </div>
+      <div id="container" class="col-lg-8 mx-auto">
+        <h2 class="text-black-50 text-center">2021</h2>
+        <ul class="js--dynamic-place-2021">
+            Po předchozích letech jsme se rozhodli udělat změnu.
+            Myšlenka jednoho velkého výrobku nám přišla již zastaralá, a proto jsme vymysleli nový koncept tábora.
+    
+            Každý z 47 účastníků si mohl vybrat z menších projektů, podle jeho zálib a dovedností.
+            Po splnění minimálního počtu malých projektů jej čekal hlavní výrobek v podobě Logika.</br>
+    
+            Mezi malé projekty patřila například Elektronická hrací kostka, Pájecí výzva, RoboSvit a další.
+            Na těchto projektech si účastníci vyzkoušeli především pájení, ale také lepení a celkovou zručnost.
+            Základy elektroniky si účastníci vyzkoušeli na námi vytvořené elektronické stavebnici Electron.</br>
+            Všechny projekty a návody k nim naleznete <a href="https://2021.robotickytabor.cz/">zde</a>.</br>
+    
+            Logik je v první řadě programovatelný displej, na kterém lze programovat hry nebo kreslit velmi zajímavou
+            grafiku.
+            Již tradičně se náš týdenní pobytový tábor uskutečnil v Sebranicích u Litomyšle a dílna byla v tamním kulturním
+            domě.
+            Každý večer se po odborném programu odehrávaly různé hry a došlo i na opékání špekáčků.</br>
+    
+            Rádi bychom poděkovali našim partnerským firmám Red Hat, Gatema, SOS electronic, Avast, FabLab Brno a Tiskárna
+            Letovice za podporu našeho tábora.
+            Z Robotického tábora v Sebranicích zdraví celý organizátorský tým a těšíme se na další setkání na dalším táboře.
+          <li><a href="img/2021/0001.jpg" data-imagelightbox="h"><img src="thumb/2021/0001.jpg" alt=" " /></a></li>
+          <li><a href="img/2021/0002.jpg" data-imagelightbox="h"><img src="thumb/2021/0002.jpg" alt=" " /></a></li>
+          <li><a href="img/2021/0003.jpg" data-imagelightbox="h"><img src="thumb/2021/0003.jpg" alt=" " /></a></li>
+          <li><a href="img/2021/0004.jpg" data-imagelightbox="h"><img src="thumb/2021/0004.jpg" alt=" " /></a></li>
+          <li><a href="img/2021/0005.jpg" data-imagelightbox="h"><img src="thumb/2021/0005.jpg" alt=" " /></a></li>
+        </ul>
+        <button class="btn" onclick="window.location.href = 'gallery.html#2021'">Galerie</button>
+        <p></p>
       </div>
     </section>
     
@@ -608,48 +614,7 @@
             onLoadEnd:	 	function() { activityIndicatorOff(); }
           });
 
-          $( '.js--add-dynamic ' ).on( 'click', function( e )
-          {
-            e.preventDefault();
-            var items = $( '.js--dynamic-items' );
-            instanceH.addToImageLightbox( items.find( 'a' ) );
-            $( '.js--dynamic-place' ).append( items.find( 'li' ).detach() );
-            $( this ).remove();
-            items.remove();
-          }); 
-
-          $( '.js--add-dynamic-x ' ).on( 'click', function( e )
-          {
-            e.preventDefault();
-            var items = $( '.js--dynamic-items-x' );
-            instanceH.addToImageLightbox( items.find( 'a' ) );
-            $( '.js--dynamic-place-x' ).append( items.find( 'li' ).detach() );
-            $( this ).remove();
-            items.remove();
-          });
-
-          $( '.js--add-dynamic-y ' ).on( 'click', function( e )
-          {
-            e.preventDefault();
-            var items = $( '.js--dynamic-items-y' );
-            instanceH.addToImageLightbox( items.find( 'a' ) );
-            $( '.js--dynamic-place-y' ).append( items.find( 'li' ).detach() );
-            $( this ).remove();
-            items.remove();
-          }); 
-
-          $( '.js--add-dynamic-z ' ).on( 'click', function( e )
-          {
-            e.preventDefault();
-            var items = $( '.js--dynamic-items-z' );
-            instanceH.addToImageLightbox( items.find( 'a' ) );
-            $( '.js--dynamic-place-z' ).append( items.find( 'li' ).detach() );
-            $( this ).remove();
-            items.remove();
-          }); 
-
         });
-      
       </script>
   </body>
 
