@@ -3,5 +3,5 @@ node_modules
 bower_components
 *.db
 generated_list.txt
-js/*
-css/*
+assets/js/*
+assets/css/*
