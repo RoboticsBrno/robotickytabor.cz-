@@ -29,9 +29,10 @@
 #twitter_username: jekyllrb
 #github_username:  jekyll
 #
-#sass:
-#  sass_dir: _sass
-#
+
+sass:
+  style: compressed
+
 ## Build settings
 #theme: minima
 #plugins:

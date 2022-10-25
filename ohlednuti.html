@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/grayscale.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -56,12 +56,12 @@
           -ms-touch-action: manipulation;
           touch-action: manipulation;
         }
-      
+
         .is-hidden
         {
           display: none;
         }
-    
+
         .btn
         {
           text-transform: uppercase;
@@ -72,7 +72,7 @@
           .btn:hover,
           .btn:focus	{ background-color: #64a19d; }
           .btn:active	{ background-color: #64a19d; }
-  
+
           #container ul
           {
           }
@@ -87,10 +87,10 @@
                 height: 8.75em; /* 140 */
                 border-color: #eee;
                 border: 0.625em solid rgba( 255, 255, 255, .5 ); /* 10 */
-    
+
                 -webkit-box-shadow: 0 0 0.313em rgba( 0, 0, 0, .05 ); /* 5 */
                 box-shadow: 0 0 0.313em rgba( 0, 0, 0, .05 ); /* 5 */
-    
+
                 -webkit-transition: -webkit-box-shadow .3s ease, border-color .3s ease;
                 transition: box-shadow .3s ease, border-color .3s ease;
               }
@@ -98,30 +98,30 @@
                 #container img:focus
                 {
                   border-color: #fff;
-    
+
                   -webkit-box-shadow: 0 0 0.938em rgba( 0, 0, 0, .25 ); /* 15 */
                   box-shadow: 0 0 0.938em rgba( 0, 0, 0, .25 ); /* 15 */
                 }
-    
-    
+
+
         /* IMAGE LIGHTBOX SELECTOR */
-    
+
         #imagelightbox
         {
           cursor: pointer;
           position: fixed;
           z-index: 10000;
-    
+
           -ms-touch-action: none;
           touch-action: none;
-    
+
           -webkit-box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 ); /* 50 */
           box-shadow: 0 0 3.125em rgba( 0, 0, 0, .75 ); /* 50 */
         }
-    
-    
+
+
         /* ACTIVITY INDICATION */
-    
+
         #imagelightbox-loading,
         #imagelightbox-loading div
         {
@@ -139,7 +139,7 @@
           left: 50%;
           padding: 0.625em; /* 10 */
           margin: -1.25em 0 0 -1.25em; /* 20 */
-    
+
           -webkit-box-shadow: 0 0 2.5em rgba( 0, 0, 0, .75 ); /* 40 */
           box-shadow: 0 0 2.5em rgba( 0, 0, 0, .75 ); /* 40 */
         }
@@ -148,11 +148,11 @@
             width: 1.25em; /* 20 */
             height: 1.25em; /* 20 */
             background-color: #fff;
-    
+
             -webkit-animation: imagelightbox-loading .5s ease infinite;
             animation: imagelightbox-loading .5s ease infinite;
           }
-    
+
           @-webkit-keyframes imagelightbox-loading
           {
             from { opacity: .5;	-webkit-transform: scale( .75 ); }
@@ -165,10 +165,10 @@
             50%	 { opacity: 1;	transform: scale( 1 ); }
             to	 { opacity: .5;	transform: scale( .75 ); }
           }
-    
-    
+
+
         /* OVERLAY */
-    
+
         #imagelightbox-overlay
         {
           background-color: #fff;
@@ -180,10 +180,10 @@
           bottom: 0;
           left: 0;
         }
-    
-    
+
+
         /* "CLOSE" BUTTON */
-    
+
         #imagelightbox-close
         {
           width: 2.5em; /* 40 */
@@ -195,13 +195,13 @@
           z-index: 10002;
           top: 2.5em; /* 40 */
           right: 2.5em; /* 40 */
-    
+
           -webkit-transition: color .3s ease;
           transition: color .3s ease;
         }
         #imagelightbox-close:hover,
         #imagelightbox-close:focus { background-color: #111; }
-    
+
           #imagelightbox-close:before,
           #imagelightbox-close:after
           {
@@ -226,9 +226,9 @@
             -ms-transform: rotate( -45deg );
             transform: rotate( -45deg );
           }
-    
+
         /* ARROWS */
-    
+
         .imagelightbox-arrow
         {
           width: 3.75em; /* 60 */
@@ -245,10 +245,10 @@
         .imagelightbox-arrow:hover,
         .imagelightbox-arrow:focus	{ background-color: rgba( 0, 0, 0, .75 ); }
         .imagelightbox-arrow:active { background-color: #111; }
-    
+
           .imagelightbox-arrow-left	{ left: 2.5em; /* 40 */ }
           .imagelightbox-arrow-right	{ right: 2.5em; /* 40 */ }
-    
+
           .imagelightbox-arrow:before
           {
             width: 0;
@@ -270,7 +270,7 @@
               border-left-color: #fff;
               margin-right: -0.313em; /* 5 */
             }
-    
+
         #imagelightbox-loading,
         #imagelightbox-overlay,
         #imagelightbox-close,
@@ -291,7 +291,7 @@
             from	{ opacity: 0; }
             to		{ opacity: 1; }
           }
-    
+
         @media only screen and (max-width: 41.250em) /* 660 */
         {
           #container
@@ -307,7 +307,7 @@
           {
             bottom: 1.25em; /* 20 */
           }
-    
+
           .imagelightbox-arrow
           {
             width: 2.5em; /* 40 */
@@ -317,13 +317,13 @@
           .imagelightbox-arrow-left	{ left: 1.25em; /* 20 */ }
           .imagelightbox-arrow-right	{ right: 1.25em; /* 20 */ }
         }
-    
+
         @media only screen and (max-width: 20em) /* 320 */
         {
           .imagelightbox-arrow-left	{ left: 0; }
           .imagelightbox-arrow-right	{ right: 0; }
         }
-    
+
       </style>
       <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
   </head>
@@ -386,22 +386,22 @@
         <ul class="js--dynamic-place-2021">
             Po předchozích letech jsme se rozhodli udělat změnu.</br>
             Myšlenka jednoho velkého výrobku nám přišla již zastaralá, a proto jsme vymysleli nový koncept tábora.
-    
+
             Každý z 47 účastníků si mohl vybrat z menších projektů, podle jeho zálib a dovedností.
             Po splnění minimálního počtu malých projektů jej čekal hlavní výrobek v podobě Logika.</br>
-    
+
             Mezi malé projekty patřila například Elektronická hrací kostka, Pájecí výzva, RoboSvit a další.
             Na těchto projektech si účastníci vyzkoušeli především pájení, ale také lepení a celkovou zručnost.
             Základy elektroniky si účastníci vyzkoušeli na námi vytvořené elektronické stavebnici Electron.</br>
             Všechny projekty a návody k nim naleznete <a href="https://2021.robotickytabor.cz/">zde</a>.</br>
-    
+
             Logik je v první řadě programovatelný displej, na kterém lze programovat hry nebo kreslit velmi zajímavou
             grafiku.
             Již tradičně se náš týdenní pobytový tábor uskutečnil v Sebranicích u Litomyšle a dílna byla v tamním kulturním
             domě.
             Každý večer se po odborném programu odehrávaly různé hry a došlo i na opékání špekáčků.</br>
-    
-            Rádi bychom poděkovali našim partnerským firmám 
+
+            Rádi bychom poděkovali našim partnerským firmám
             <a href="https://www.redhat.com/en/global/czech-republic">Red Hat</a>,
             <a href="http://www.gatema.cz/">Gatema</a>,
             <a href="https://www.soselectronic.cz/">SOS electronic</a>,
@@ -420,7 +420,7 @@
         <p></p>
       </div>
     </section>
-    
+
     <!-- Contact Section -->
     <section class="contact-section bg-black">
       <div class="container">
@@ -489,7 +489,7 @@
         Copyright &copy; <a href="http://helceletka.cz/robotarna">Robotárna, DDM Helceletova</a> 2018
       </div>
     </footer>
-  
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -507,7 +507,7 @@
         {
           var
             // ACTIVITY INDICATOR
-      
+
             activityIndicatorOn = function()
             {
               $( '<div id="imagelightbox-loading"><div></div></div>' ).appendTo( 'body' );
@@ -516,10 +516,10 @@
             {
               $( '#imagelightbox-loading' ).remove();
             },
-      
-      
+
+
             // OVERLAY
-      
+
             overlayOn = function()
             {
               $( '<div id="imagelightbox-overlay"></div>' ).appendTo( 'body' );
@@ -528,10 +528,10 @@
             {
               $( '#imagelightbox-overlay' ).remove();
             },
-      
-      
+
+
             // CLOSE BUTTON
-      
+
             closeButtonOn = function( instance )
             {
               $( '<button type="button" id="imagelightbox-close" title="Close"></button>' ).appendTo( 'body' ).on( 'click touchend', function(){ $( this ).remove(); instance.quitImageLightbox(); return false; });
@@ -541,21 +541,21 @@
               $( '#imagelightbox-close' ).remove();
             },
             // ARROWS
-      
+
             arrowsOn = function( instance, selector )
             {
               var $arrows = $( '<button type="button" class="imagelightbox-arrow imagelightbox-arrow-left"></button><button type="button" class="imagelightbox-arrow imagelightbox-arrow-right"></button>' );
-      
+
               $arrows.appendTo( 'body' );
-      
+
               $arrows.on( 'click touchend', function( e )
               {
                 e.preventDefault();
-      
+
                 var $this	= $( this ),
                   $target	= $( selector + '[href="' + $( '#imagelightbox' ).attr( 'src' ) + '"]' ),
                   index	= $target.index( selector );
-      
+
                 if( $this.hasClass( 'imagelightbox-arrow-left' ) )
                 {
                   index = index - 1;
@@ -568,7 +568,7 @@
                   if( !$( selector ).eq( index ).length )
                     index = 0;
                 }
-      
+
                 instance.switchImageLightbox( index );
                 return false;
               });
@@ -577,9 +577,9 @@
             {
               $( '.imagelightbox-arrow' ).remove();
             };
-      
+
           //	WITH ARROWS & ACTIVITY INDICATION
-      
+
           var selectorG = 'a[data-imagelightbox="g"]';
           var instanceG = $( selectorG ).imageLightbox(
             {
@@ -610,7 +610,7 @@
               onLoadEnd:	 	function(){ $( '.imagelightbox-arrow' ).css( 'display', 'block' ); activityIndicatorOff(); }
             });
 
-            
+
           var instanceH = $( 'a[data-imagelightbox="h"]' ).imageLightbox(
           {
             quitOnDocClick:	true,
