@@ -1,8 +1,5 @@
-node_modules
 .sass-cache
 bower_components
 *.db
 generated_list.txt
-assets/js/*
-assets/css/*
 _site
