@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c161a744-c6d1-4feb-98a9-3db2ca8a66b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_camps/2021.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_camps/2022.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/nav_camp_cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/old_camps_cz_new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/camp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/old_camps_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/old_camps_cz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohlednuti/2021.html" beforeDir="false" afterPath="$PROJECT_DIR$/ohlednuti-old/2021.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohlednuti/2022.html" beforeDir="false" afterPath="$PROJECT_DIR$/ohlednuti-old/2022.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +66,7 @@
       <workItem from="1666638760855" duration="3064000" />
       <workItem from="1666642987598" duration="2313000" />
       <workItem from="1666646877886" duration="1960000" />
-      <workItem from="1666706034951" duration="19542000" />
+      <workItem from="1666706034951" duration="20149000" />
     </task>
     <servers />
   </component>
