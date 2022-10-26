@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c161a744-c6d1-4feb-98a9-3db2ca8a66b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_includes/about_cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/actuality_cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/camp_right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/contacts_cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/header_cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/nav_cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/old_camps_cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/scripts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/social.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/sponsors_cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/default-cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header_cz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default-cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default_cz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +69,7 @@
       <workItem from="1666638760855" duration="3064000" />
       <workItem from="1666642987598" duration="2313000" />
       <workItem from="1666646877886" duration="1960000" />
-      <workItem from="1666706034951" duration="11432000" />
+      <workItem from="1666706034951" duration="13709000" />
     </task>
     <servers />
   </component>
