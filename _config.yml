@@ -30,13 +30,23 @@
 #github_username:  jekyll
 #
 
+
 sass:
   style: compressed
 
-## Build settings
-#theme: minima
-#plugins:
-#  - jekyll-feed
+
+# This allows to render _camp posts as /ohlednuti
+collections:
+  camps:
+    output: true
+    permalink: /ohlednuti/:path/
+
+
+plugins:
+  - jekyll-sitemap
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
