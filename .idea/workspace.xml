@@ -5,43 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c161a744-c6d1-4feb-98a9-3db2ca8a66b4" name="Changes" comment="Add baseurl">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_camps/2020.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/about_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/contacts_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/header_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/nav_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/nav_gallery_cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/nav_gallery_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/sponsors_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/sponsors_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/default_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/new-window-fix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en-cpy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_camps/2021.html" beforeDir="false" afterPath="$PROJECT_DIR$/_camps/2021.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/actuality_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/actuality_cz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/camp_right.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/camp_right.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/contacts_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contacts_cz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header_cz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/nav_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav_cz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/old_camps_cz_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/camps_portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/social.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/social.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sponsors_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sponsors_cz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default_cz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en.html" beforeDir="false" afterPath="$PROJECT_DIR$/en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ohlednuti.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +98,7 @@
       <workItem from="1666646877886" duration="1960000" />
       <workItem from="1666706034951" duration="20524000" />
       <workItem from="1669824805806" duration="4080000" />
-      <workItem from="1682708119555" duration="12925000" />
+      <workItem from="1682708119555" duration="13636000" />
     </task>
     <task id="LOCAL-00001" summary="Add baseurl">
       <created>1666789731892</created>
