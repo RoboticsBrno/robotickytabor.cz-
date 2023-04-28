@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c161a744-c6d1-4feb-98a9-3db2ca8a66b4" name="Changes" comment="">
+    <list default="true" id="c161a744-c6d1-4feb-98a9-3db2ca8a66b4" name="Changes" comment="Add baseurl">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_camps/2020.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/about_en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/contacts_en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/header_en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/nav_en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/nav_gallery_cz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/nav_gallery_en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/sponsors_en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/sponsors_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/default_en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/new-window-fix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/en-cpy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_camps/2021.html" beforeDir="false" afterPath="$PROJECT_DIR$/_camps/2021.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/actuality_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/actuality_cz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/camp_right.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/camp_right.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/contacts_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contacts_cz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header_cz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/nav_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav_cz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/old_camps_cz_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/camps_portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/social.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/social.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sponsors_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sponsors_cz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default_cz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en.html" beforeDir="false" afterPath="$PROJECT_DIR$/en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ohlednuti.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +72,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "18.11.0",
-    "javascript.nodejs.core.library.typings.version": "18.11.0",
-    "last_opened_file_path": "/Users/kuba/Documents/git/robo/robotickytabor/robo-kuba/_includes",
+    "javascript.nodejs.core.library.configured.version": "19.8.1",
+    "javascript.nodejs.core.library.typings.version": "18.16.2",
+    "last_opened_file_path": "/Users/kuba/Documents/git/robo/robotickytabor/robo-kuba/_camps",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
@@ -43,17 +86,39 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/_camps" />
+      <recent name="$PROJECT_DIR$/_includes" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/css" />
-      <recent name="$PROJECT_DIR$/_site/assets/css" />
-      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/assets/scss" />
+      <recent name="$PROJECT_DIR$/en" />
+      <recent name="$PROJECT_DIR$/_camps_en" />
+      <recent name="$PROJECT_DIR$/_camps_cs" />
+      <recent name="$PROJECT_DIR$/_camps/cs" />
     </key>
+  </component>
+  <component name="RunManager" selected="Makefile Target.serve-live">
+    <configuration name="serve-live" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="serve-live" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="serve" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.serve-live" />
+        <item itemvalue="Makefile Target.serve" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,8 +131,18 @@
       <workItem from="1666638760855" duration="3064000" />
       <workItem from="1666642987598" duration="2313000" />
       <workItem from="1666646877886" duration="1960000" />
-      <workItem from="1666706034951" duration="20149000" />
+      <workItem from="1666706034951" duration="20524000" />
+      <workItem from="1669824805806" duration="4080000" />
+      <workItem from="1682708119555" duration="12925000" />
     </task>
+    <task id="LOCAL-00001" summary="Add baseurl">
+      <created>1666789731892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666789731892</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +158,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add baseurl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add baseurl" />
   </component>
 </project>

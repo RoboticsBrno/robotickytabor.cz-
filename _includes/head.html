@@ -1,11 +1,11 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133506734-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-133506734-1');
+  gtag('config', '{{ site.google_analytics }}');
 </script>
 
 <meta charset="utf-8">
@@ -13,7 +13,7 @@
 <meta name="description" content="">
 <meta name="robotikabrno" content="">
 
-<title>Robotický tábor</title>
+<title>Robotický tábor {% if page.title %} | {{ page.title }}{% endif %}</title>
 
 <!-- Bootstrap core CSS -->
 <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,3 +26,16 @@
 <!-- Custom styles for this template -->
 <link href="/assets/css/main.css" rel="stylesheet">
 <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="/assets/js/grayscale.min.js"></script>
+<script src="/assets/js/new-window-fix.js"></script>
+<script src="/assets/js/imagelightbox.min.js"></script>

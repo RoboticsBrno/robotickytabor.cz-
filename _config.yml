@@ -33,7 +33,21 @@ url: "https://jakubandrysek.github.io/robotickytabor.cz" # the base hostname & p
 
 sass:
   style: compressed
+  sourcemap: never
 
+latest_camp:
+  cz: "Tábor 2023"
+  en: "Camp 2023"
+
+camps_list:
+  - 2017
+  - 2018
+  - 2019
+  - 2020
+  - 2021
+  - 2022
+
+google_analytics: UA-XXXXXXXXX-X
 
 # This allows to render _camp posts as /ohlednuti
 collections:
@@ -44,6 +58,7 @@ collections:
 
 plugins:
   - jekyll-sitemap
+
 
 
 

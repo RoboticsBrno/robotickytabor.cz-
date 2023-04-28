@@ -3,3 +3,4 @@ bower_components
 *.db
 generated_list.txt
 _site
+.DS_Store
