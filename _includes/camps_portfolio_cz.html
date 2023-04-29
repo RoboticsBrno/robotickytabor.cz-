@@ -15,8 +15,10 @@
                         <div class="project-text w-100 my-auto text-center text-lg-right">
                             <h4 class="text-white">Robotický tábor {{ camp.year }}</h4>
                             <p class="mb-0 text-white-50">{{ camp.description_cz }}</br>
+                                {% if camp.guide %}
                                 <a href="{{ camp.guide }}">Návody a dokumentace jsou k nalezení zde.</a>
                                 </br>
+                                {% endif %}
                                 <a href="{{ camp.url }}">Ohlédnutí za táborem v roce {{ camp.year }}.</a>
                             </p>
 
@@ -38,11 +40,12 @@
                         <div class="project-text w-100 my-auto text-center text-lg-left">
                             <h4 class="text-white">Robotický tábor {{ camp.year }}</h4>
                             <p class="mb-0 text-white-50">{{ camp.description_cz }}</br>
+                                {% if camp.guide %}
                                 <a href="{{ camp.guide }}">Návody a dokumentace jsou k nalezení zde.</a>
                                 </br>
+                                {% endif %}
                                 <a href="{{ camp.url }}">Ohlédnutí za táborem v roce {{ camp.year }}.</a>
                             </p>
-
                             <hr class="d-none d-lg-block mb-0 ml-0">
                         </div>
                     </div>
@@ -50,31 +53,6 @@
             </div>
         </div>
         {% endif %}
-
         {% endfor %}
     </div>
-
-
 </section>
-
-
-<!--<div class="posts">-->
-<!--    ASD-->
-<!--    {% for post in site.posts %}-->
-<!--        {% assign remainder = forloop.index | modulo: 2 %}-->
-<!--        {% if forloop.first == true %}-->
-<!--            <div class="row">-->
-<!--                <article class="twelve columns"></article>-->
-<!--            </div>-->
-<!--        {% elsif remainder == 0 %}-->
-<!--            <div class="row">-->
-<!--                <article class="six columns"></article>-->
-<!--                {% if forloop.last %}-->
-<!--                    </div>-->
-<!--                {% endif %}-->
-<!--        {% else %}-->
-<!--            <article class="six columns"></article>-->
-<!--            </div>-->
-<!--        {% endif %}-->
-<!--    {% endfor %}-->
-<!--</div>-->
