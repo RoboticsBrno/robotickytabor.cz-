@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main # or master before October 2020
+      - master # or main before October 2020
 
 jobs:
   jekyll:
