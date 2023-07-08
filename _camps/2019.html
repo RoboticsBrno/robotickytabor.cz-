@@ -1,0 +1,42 @@
+---
+layout: camp
+year: 2019
+description_cz: V průběhu roku 2019 jsme pro všechny účastníky připravili <a href="https://roboruka.robotickytabor.cz/">Roboruku</a>, kterou si každý z účastníků tábora sestavil. Poslední den se uspořádaly soutěže, aby mohli všichni poměřit síly svých robotů a vyzkoušet si všemožné druhy soutěží.
+description_en: In 2019 we prepared for all the children <a href="https://roboruka.robotickytabor.cz/">Robotic arm (in
+    Czech)</a>, which every participant made. Last day we organized competitions, so that everyone can try his robot in different tasks.
+guide: https://roboruka.robotickytabor.cz/
+---
+
+<section id="about" class="about-section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h1>Ohlédnutí za rokem {{ page.year }}</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="last" class="projects-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="/img/last_{{ page.year }}.png" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <p class="text-white">
+                                {% if page.description_cz %}
+                                {{ page.description_cz }}
+                                {% endif %}
+                            </p>
+                            <hr class="d-none d-lg-block mb-0 ml-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

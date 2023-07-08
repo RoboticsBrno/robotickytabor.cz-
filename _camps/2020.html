@@ -1,0 +1,41 @@
+---
+layout: camp
+year: 2020
+description_cz: V roce 2020 si naši účastníci na táboře postavili a naprogramovali <a href="https://robotka.robotickytabor.cz/">Robotku</a>, kterou si následně mohli vylepšovat pomocí různých senzorů a kosmetických vylepšení. Tato vylepšení přišla vhod poslední den tábora, na který byly připraveny různé soutěže.
+description_en: This year, out attendees built and programmed <a href="https://robotka.robotickytabor.cz/">Robotka</a>, which they could later upgrade and customize with various sensors and upgrades. At the end of the camp, everybody could test out his robot in a competition.
+guide: https://robotka.robotickytabor.cz/
+---
+
+<section id="about" class="about-section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h1>Ohlédnutí za rokem {{ page.year }}</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="last" class="projects-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="/img/last_{{ page.year }}.png" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <p class="text-white">
+                                {% if page.description_cz %}
+                                {{ page.description_cz }}
+                                {% endif %}
+                            </p>
+                            <hr class="d-none d-lg-block mb-0 ml-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,41 @@
+---
+layout: camp
+year: 2017
+description_cz: V roce 2017 si účastníci našeho tábora odvezli vývojovou desku <a href="https://github.com/RoboticsBrno/ArduinoLearningKitStarter" target="_blank">ALKS</a> (Arduino Learning Kit Starter) s velmi zajímavým čipem ESP32, který jsme programovali přes platformu Arduino.
+description_en: In 2017, participants of our camp took home a development board <a href="https://github.com/RoboticsBrno/ArduinoLearningKitStarter" target="_blank">ALKS</a> (Arduino Learning Kit Starter) with a very interesting ESP32 chip, which we programmed using the Arduino platform.
+guide: https://github.com/RoboticsBrno/ArduinoLearningKitStarter
+---
+
+<section id="about" class="about-section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h1>Ohlédnutí za rokem {{ page.year }}</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="last" class="projects-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="/img/last_{{ page.year }}.png" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-left">
+                            <p class="text-white">
+                                {% if page.description_cz %}
+                                {{ page.description_cz }}
+                                {% endif %}
+                            </p>
+                            <hr class="d-none d-lg-block mb-0 ml-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

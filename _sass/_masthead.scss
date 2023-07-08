@@ -1,0 +1,44 @@
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../../img/masthead.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  h1 {
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, .99), rgba(255, 255, 255, 0.75));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+  @media(min-width: 768px) {
+    h1 {
+      font-size: 3rem;
+      line-height: 4.5rem;
+    }
+  }
+  @media(min-width: 992px) {
+    height: 100vh;
+    padding: 0;
+    h1 {
+      font-size: 6rem;
+      line-height: 7rem;
+      letter-spacing: 0.8rem;
+    }
+    h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
+    }
+  }
+}
