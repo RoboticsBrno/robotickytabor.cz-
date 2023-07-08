@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c161a744-c6d1-4feb-98a9-3db2ca8a66b4" name="Changes" comment="Dev cname">
-      <change afterPath="$PROJECT_DIR$/_camps/2016.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_camps/2017.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_camps/2018.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_camps/2019.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/camps_portfolio_cz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/camps_portfolio_en.html" afterDir="false" />
+    <list default="true" id="c161a744-c6d1-4feb-98a9-3db2ca8a66b4" name="Changes" comment="Add CZ and EN pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_camps/2020.html" beforeDir="false" afterPath="$PROJECT_DIR$/_camps/2020.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_camps/2021.html" beforeDir="false" afterPath="$PROJECT_DIR$/_camps/2021.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_camps/2022.html" beforeDir="false" afterPath="$PROJECT_DIR$/_camps/2022.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/actuality_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/actuality_cz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/camps_portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/camps_portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/contacts_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contacts_cz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/contacts_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contacts_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/nav_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav_cz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/nav_en.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav_en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en.html" beforeDir="false" afterPath="$PROJECT_DIR$/en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/last_2016.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/last_2017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/last_2018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/last_2019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/last_2020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +38,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "19.8.1",
-    "javascript.nodejs.core.library.typings.version": "18.16.2",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "20.3.0",
+    "javascript.nodejs.core.library.typings.version": "20.3.0",
     "last_opened_file_path": "/Users/kuba/Documents/git/robo/robotickytabor/robo-kuba/_includes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -121,7 +100,8 @@
       <workItem from="1666646877886" duration="1960000" />
       <workItem from="1666706034951" duration="20524000" />
       <workItem from="1669824805806" duration="4080000" />
-      <workItem from="1682708119555" duration="18925000" />
+      <workItem from="1682708119555" duration="19484000" />
+      <workItem from="1688749780106" duration="1526000" />
     </task>
     <task id="LOCAL-00001" summary="Add baseurl">
       <created>1666789731892</created>
@@ -137,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682724094165</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add CZ and EN pages">
+      <created>1682759005195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682759005195</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add baseurl" />
     <MESSAGE value="Dev cname" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dev cname" />
+    <MESSAGE value="Add CZ and EN pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CZ and EN pages" />
   </component>
 </project>
