@@ -58,6 +58,7 @@ collections:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-google-photos
 
 
 
