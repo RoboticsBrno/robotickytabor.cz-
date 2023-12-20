@@ -36,8 +36,8 @@ sass:
   sourcemap: never
 
 latest_camp:
-  cz: "Tábor 2023"
-  en: "Camp 2023"
+  cz: "Tábor 2024"
+  en: "Camp 2024"
 
 camps_list:
   - 2017
@@ -47,7 +47,7 @@ camps_list:
   - 2021
   - 2022
 
-google_analytics: UA-XXXXXXXXX-X
+google_analytics: G-EPNMECZ8VP
 
 # This allows to render _camp posts as /ohlednuti
 collections:
