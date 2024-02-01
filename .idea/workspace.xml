@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c161a744-c6d1-4feb-98a9-3db2ca8a66b4" name="Changes" comment="Add CZ and EN pages">
+      <change afterPath="$PROJECT_DIR$/_camps/2023.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/actuality_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/actuality_cz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/nav_camp_cz.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav_camp_cz.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2GatvoHJxIgCbJawx8J4A3GvR1q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,13 +40,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Makefile Target.serve-live.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "20.3.0",
-    "javascript.nodejs.core.library.typings.version": "20.3.0",
-    "last_opened_file_path": "/Users/kuba/Documents/git/robo/robotickytabor/robo-kuba/_includes",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "21.5.0",
+    "javascript.nodejs.core.library.typings.version": "20.11.16",
+    "last_opened_file_path": "/Users/kuba/Documents/git/robo/robotickytabor/robotickytabor.cz/_camps",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,8 +59,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/_camps" />
+      <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$/assets" />
@@ -102,6 +108,7 @@
       <workItem from="1669824805806" duration="4080000" />
       <workItem from="1682708119555" duration="19484000" />
       <workItem from="1688749780106" duration="1526000" />
+      <workItem from="1706820649988" duration="2066000" />
     </task>
     <task id="LOCAL-00001" summary="Add baseurl">
       <created>1666789731892</created>
