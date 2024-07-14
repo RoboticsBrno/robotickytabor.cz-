@@ -27,9 +27,18 @@ guide: https://2023.robotickytabor.cz/
                     <div class="d-flex h-100">
                         <div class="project-text w-100 my-auto text-center text-lg-left">
                             <p class="text-white">
-                                Na táboře v roce 2023 účastníci pracovali na několika menších projektech. Hlavním projektem byl vývojový kit ELKS neboli ESP Learning Kit Starter. Jedná se o vzdělávací nástroj pro výuku elektroniky a základů programování. Kity nadále používáme v kroužcích pro začátečníky i pokročilé.
+                                {% if page.description_cz %}
+                                {{ page.description_cz }}
+                                {% endif %}
                             </p>
-                            <hr class="d-none d-lg-block mb-0 ml-0">
+                            <div>
+                                <a href="https://2023.robotickytabor.cz" target="_blank">
+                                    <button type="submit" class="btn btn-secondary mx-auto"><i class="fa fa-book"></i> Návody 2023</button>
+                                </a>
+                                <a href="/gallery">
+                                    <button type="submit" class="btn btn-secondary mx-auto"><i class="fa fa-book"></i> Fotogalerie</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

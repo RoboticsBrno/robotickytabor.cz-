@@ -4,3 +4,7 @@ bower_components
 generated_list.txt
 _site
 .DS_Store
+
+original/
+.venv/
+generateGallery.html
