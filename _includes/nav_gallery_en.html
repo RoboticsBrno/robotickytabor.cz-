@@ -12,9 +12,10 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="/en">Introduction</a>
                 </li>
-                {% for camp in site.camps_list reversed %}
+                {% assign camps_list = site.camps | reverse %}
+                {% for camp in camps_list limit: 5 %}
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#{{ camp }}">{{ camp }}</a>
+                    <a class="nav-link js-scroll-trigger" href="#{{ camp.year }}">{{ camp.year }}</a>
                 </li>
                 {% endfor %}
                 <li class="nav-item">
