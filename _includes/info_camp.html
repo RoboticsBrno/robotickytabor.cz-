@@ -1,32 +1,43 @@
 <div class="featured-text text-center h-100">
-	<!-- <h4>Přihlašování na Robotický tábor 2024 je již v plném proudu!</h4> -->
-	<!-- <h4>Robotický tábor 2024 se nám blíží!</h4> -->
-	<!-- <h4>Právě probíhá Robotický tábor 2024!</h4> -->
-	<h4>Robotický tábor 2024 je již za námi.</h4>
+	{% if site.camp_settings.status == "signing" %}
+		<h4>Přihlašování na Robotický tábor {{ site.camp_settings.year }} je již v plném proudu!</h4>
+	{% elsif site.camp_settings.status == "upcoming" %}
+		<h4>Robotický tábor {{ site.camp_settings.year }} se nám blíží!</h4>
+	{% elsif site.camp_settings.status == "running" %}
+		<h4>Právě probíhá Robotický tábor {{ site.camp_settings.year }}!</h4>
+	{% elsif site.camp_settings.status == "completed" %}
+		<h4>Robotický tábor {{ site.camp_settings.year }} je již za námi.</h4>
+	{% endif %}
+
 	<p class="text-black-100 mb-0">
-		Pojeď s námi na Robotický tábor a odvezeš si domů unikátní výtvor, který nikdo jiný nemá.</br>
+		{% if site.camp_settings.status == "preparing" %}
+			Pojeď s námi na Robotický tábor a odvezeš si domů unikátní výtvor, který nikdo jiný nemá.</br>
+			Než spustíme přihlašování na další rok, tak si můžete přečíst o již <a href="https://robotickytabor.cz/ohlednuti/{{ site.camp_settings.year }}.html">proběhlých táborech</a>. <br>
+			Těšíme se na vás na Robotickém táboře {{ site.camp_settings.next_year }}!
+		{% else %}
+			<b>Termín:</b> {{ site.camp_settings.date }}</br>
+			<b>Minimální věk:</b> 12 let</br>
+			<b>Místo:</b> Sebranice u Litomyšle</br>
+			<b>Cena:</b> {{ site.camp_settings.price }}</br>
+			Cena zahrnuje dopravu, ubytování, stravu 5x denně, velký výběr projektů, zajímavý odborný i zážitkový program a kvalitní odborné lektory.
+			Každý účastník si své výrobky odveze domů.</br></br>
+			
+			
+			<!-- <a href="https://helceletka.cz/tabory/#id=7832" target="_blank">
+				<button type="submit" class="btn btn-primary mx-auto"><i class="fa fa-clipboard"></i> Přihláška (plná kapacita)</button>
+			</a> -->
+			
+			{% if site.camp_settings.guide %}
+				<a href="{{ site.camp_settings.guide }}" target="_blank">
+					<button type="submit" class="btn btn-secondary mx-auto"><i class="fa fa-book"></i> Návody {{ site.camp_settings.year }}</button>
+				</a>
+			{% endif %}
 
-		<!-- Než spustíme přihlašování na další rok, tak si můžete přečíst o již <a href="https://robotickytabor.cz/ohlednuti/2022.html">proběhlých táborech</a>. <br>
-		Těšíme se na vás na Robotickém táboře 2023! -->
-
-		<b>Termín:</b> 6.-13. července 2024</br>
-		<b>Minimální věk:</b> 12 let</br>
-		<b>Místo:</b> Sebranice u Litomyšle</br>
-		<b>Cena:</b> 7300 Kč</br>
-		Cena zahrnuje dopravu, ubytování, stravu 5x denně, velký výběr projektů, zajímavý odborný i zážitkový program a kvalitní odborné lektory.
-		Každý účastník si své výrobky odveze domů.</br></br>
-
-
-		<!-- <a href="https://helceletka.cz/tabory/#id=7832" target="_blank">
-			<button type="submit" class="btn btn-primary mx-auto"><i class="fa fa-clipboard"></i> Přihláška (plná kapacita)</button>
-		</a> -->
-
-		<a href="https://2024.robotickytabor.cz" target="_blank">
-			<button type="submit" class="btn btn-secondary mx-auto"><i class="fa fa-book"></i> Návody 2024</button>
-		</a>
-
-		<a href="https://robotickytabor.cz/gallery">
-			<button type="submit" class="btn btn-secondary mx-auto"><i class="fa fa-book"></i> Fotogalerie</button>
-		</a>
+			{% if site.camp_settings.status == "completed" %}
+				<a href="https://robotickytabor.cz/gallery">
+					<button type="submit" class="btn btn-secondary mx-auto"><i class="fa fa-book"></i> Fotogalerie</button>
+				</a>
+			{% endif %}
+		{% endif %}
 	</p>
 </div>

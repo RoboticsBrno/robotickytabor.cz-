@@ -25,27 +25,27 @@
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 #baseurl: "robotickytabor.cz/" # the subpath of your site, e.g. /blog
-url: "https://jakubandrysek.github.io/robotickytabor.cz" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
-#
+url: "https://robotickytabor.cz" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Setup START
 
-sass:
-  style: compressed
-  sourcemap: never
+camp_settings:
+  year: 2024
+  next_year: 2025
+  status: "completed" # preparing, signinig, upcoming, running, completed
+  date: "6.-13. července 2024"
+  price: "7300 Kč"
+  guide: "https://2024.robotickytabor.cz"
 
 latest_camp:
   cz: "Tábor 2024"
   en: "Camp 2024"
 
-camps_list:
-  - 2017
-  - 2018
-  - 2019
-  - 2020
-  - 2021
-  - 2022
+# Setup END
+
+sass:
+  style: compressed
+  sourcemap: never
 
 google_analytics: G-EPNMECZ8VP
 
@@ -55,13 +55,8 @@ collections:
     output: true
     permalink: /ohlednuti/:path/
 
-
 plugins:
   - jekyll-sitemap
-
-
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
