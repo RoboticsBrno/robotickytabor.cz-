@@ -36,6 +36,8 @@ camp_settings:
   date: "5.-12. července 2025"
   price: "7 700 Kč"
   #guide: "https://2025.robotickytabor.cz"
+  camp_id: 8796
+  is_full: false 
 
 latest_camp:
   cz: "Tábor 2025"

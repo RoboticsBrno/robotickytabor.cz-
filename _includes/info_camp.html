@@ -22,10 +22,11 @@
 			Cena zahrnuje dopravu, ubytování, stravu 5x denně, velký výběr projektů, zajímavý odborný i zážitkový program a kvalitní odborné lektory.
 			Každý účastník si své výrobky odveze domů.</br></br>
 			
-			
-			<!-- <a href="https://helceletka.cz/tabory/#id=7832" target="_blank">
-				<button type="submit" class="btn btn-primary mx-auto"><i class="fa fa-clipboard"></i> Přihláška (plná kapacita)</button>
-			</a> -->
+			{% if site.camp_settings.status == "signing" %}
+				<a href="https://helceletka.cz/tabory/#id={{ site.camp_settings.camp_id }}" target="_blank">
+					<button type="submit" class="btn btn-primary mx-auto"><i class="fa fa-clipboard"></i> Přihláška{% if site.camp_settings.is_full %} (plná kapacita){% endif %}</button>
+				</a>
+			{% endif %}
 			
 			{% if site.camp_settings.guide %}
 				<a href="{{ site.camp_settings.guide }}" target="_blank">
