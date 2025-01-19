@@ -32,10 +32,12 @@ url: "https://robotickytabor.cz" # the base hostname & protocol for your site, e
 camp_settings:
   year: 2025
   next_year: 2026
-  status: "upcoming" # preparing, signinig, upcoming, running, completed
+  status: "signing" # preparing, signing, upcoming, running, completed
   date: "5.-12. července 2025"
-  price: "---- Kč"
+  price: "7 700 Kč"
   #guide: "https://2025.robotickytabor.cz"
+  camp_id: 8796
+  is_full: false 
 
 latest_camp:
   cz: "Tábor 2025"
